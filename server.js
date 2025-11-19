@@ -12,7 +12,7 @@ app.use(cors());
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-mongoose.connect(process.env.MONGODB_URI, { dbName: "BD-Nube-Lidia" })
+mongoose.connect(process.env.MONGODB_URI, { dbName: "BD-Nube-RaulFernandoCruzMoreno" })
   .then(() => console.log("Servidor conectado correctamente con MongoDB Atlas"))
   .catch(err => console.error("Error al conectar MongoDB:", err));
 
